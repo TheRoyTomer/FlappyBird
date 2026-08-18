@@ -8,6 +8,11 @@ public class PipeSpawner : MonoBehaviour
     [SerializeField] private float maxY = 1f;
 
     private float timer;
+    
+    private void Start()
+    {
+        SpawnPipe();
+    }
 
     private void Update()
     {

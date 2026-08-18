@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6405713580124325571}
   - component: {fileID: 9124775384975383043}
   - component: {fileID: 7056010093382548459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TopPipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -1.5}
+  m_Offset: {x: 0, y: -4.44}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -136,7 +136,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.55, y: 6.15}
+  m_Size: {x: 0.55, y: 12}
   m_EdgeRadius: 0
 --- !u!1 &2347498439413637870
 GameObject:
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 7233754467483625703}
   - component: {fileID: 974496083709052810}
   - component: {fileID: 1714347864164106946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PipePair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PipeMovement
   moveSpeed: 2
+  destroyX: -5
 --- !u!50 &1714347864164106946
 Rigidbody2D:
   serializedVersion: 5
@@ -225,7 +226,7 @@ GameObject:
   - component: {fileID: 5269739042629242842}
   - component: {fileID: 7644087655992693614}
   - component: {fileID: 5656346724026907849}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ScoreTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +317,7 @@ GameObject:
   - component: {fileID: 1034449043978520495}
   - component: {fileID: 6866133994784757347}
   - component: {fileID: 4405636004629657326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ButtomPipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
